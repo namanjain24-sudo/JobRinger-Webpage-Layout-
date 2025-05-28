@@ -5,7 +5,7 @@ import { Sparkles, Zap, TrendingUp } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <div className="relative overflow-hidden">
+    <div class="relative overflow-hidden mt-[100px]">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; viewBox=&quot;0 0 60 60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cg fill=&quot;none&quot; fillRule=&quot;evenodd&quot;%3E%3Cg fill=&quot;%23ffffff&quot; fillOpacity=&quot;0.1&quot;%3E%3Ccircle cx=&quot;30&quot; cy=&quot;30&quot; r=&quot;2&quot;/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] animate-pulse"></div>
@@ -49,9 +49,7 @@ export function HeroSection() {
               </Button>
               <Button
                 variant="outline"
-                className="border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105"
-              >
-                Post A Job
+className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105">  Post A Job
               </Button>
               <Button className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105">
                 Sales Enquiry
